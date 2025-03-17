@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RTL Enforcer Pro</title>
+    <link rel="stylesheet" href="styles/popup.css" />
+    <script src="scripts/popup.js" defer></script>
+  </head>
+  <body>
+    <h2>RTL Enforcer Pro</h2>
+    <div class="controls">
+      <label>
+        <input type="checkbox" id="enableToggle" />
+        Enable automatic RTL detection
+      </label>
+      <label>
+        <input type="checkbox" id="alignToggle" />
+        Align text to right for RTL
+      </label>
+      <!-- צ'קבוקס חדש -->
+      <label>
+        <input type="checkbox" id="alwaysRTLToggle" />
+        Always force RTL (whole page)
+      </label>
+
+      <input
+        type="text"
+        id="excludeSite"
+        placeholder="Enter a site to exclude"
+      />
+      <button id="addSite">Add to exclusions</button>
+      <ul id="siteList"></ul>
+    </div>
+  </body>
+</html>
