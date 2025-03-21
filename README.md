@@ -43,6 +43,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 - **Developer**: Paulo Paul Monayer
-- **Email**: youremail@example.com
+- **Email**: monayer42@gmail.com
 - **GitHub**: [PauloPaulMonayer](https://github.com/PauloPaulMonayer)
 
